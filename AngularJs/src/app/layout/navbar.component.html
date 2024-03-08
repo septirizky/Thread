@@ -1,0 +1,27 @@
+<header
+  class="h-12 px-3 bg-indigo-900 text-white flex items-center justify-between"
+>
+  <span>SepThreads</span>
+  <nav>
+    <ul class="flex gap-4">
+      <li
+        routerLinkActive="underline underline-offset-4"
+        class="hover:underline hover:underline-offset-4"
+      >
+        <a class="nav-link" [routerLink]="['/home']">Home</a>
+      </li>
+      <li
+        routerLinkActive="underline underline-offset-4"
+        class="hover:underline hover:underline-offset-4"
+      >
+        <a routerLink="/profil">Profil</a>
+      </li>
+      <li
+        routerLinkActive="underline underline-offset-4"
+        class="hover:underline hover:underline-offset-4"
+      >
+        <a routerLink="/login">Logout</a>
+      </li>
+    </ul>
+  </nav>
+</header>
